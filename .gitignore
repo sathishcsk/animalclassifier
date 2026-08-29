@@ -1,0 +1,34 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# Streamlit
+.streamlit/
+
+# Local model files
+models/
+*.gguf
+*.bin
+*.safetensors
+
+# Ollama-related local files (if stored in project)
+ollama/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
